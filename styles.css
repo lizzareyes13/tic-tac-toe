@@ -1,3 +1,4 @@
+
 body,
 html {
   width: 100%;
@@ -35,6 +36,7 @@ li {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
+  border-radius: .5em;
 }
 
 .game-board {
@@ -273,4 +275,17 @@ button {
     -o-transform: rotateY(360deg);
     transform: rotateY(360deg);
   }
+}
+.scoreboard{
+  background-color: #c8c8c8;
+  border-radius: .5em;
+  margin: 0 auto;
+  width: 33%;
+}
+.footer{
+  background-color: #c8c8c8;
+  margin: 0 auto;
+  border-radius: .5em;
+  width: 33%;
+  height: 6em;
 }
